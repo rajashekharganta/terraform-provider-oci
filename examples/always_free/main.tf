@@ -34,9 +34,9 @@ variable "ad_region_mapping" {
   type = map(string)
 
   default = {
-    us-phoenix-1 = 2
-    us-ashburn-1 = 3
-    us-seattle-1 = 2
+    us-phoenix-1 = "2"
+    us-ashburn-1 = "3"
+    us-seattle-1 = "2"
   }
 }
 
